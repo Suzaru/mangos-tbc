@@ -89,3 +89,11 @@ cmake_install.cmake
 
 # recastnavigation directory needs exception
 !dep/recastnavigation/RecastDemo/Build/
+
+sql/updates/characters/output\.tab
+
+sql/updates/characters/update\.bat
+
+sql/updates/mangos/output\.tab
+
+sql/updates/mangos/update\.bat
