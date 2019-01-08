@@ -144,7 +144,7 @@ struct boss_patchwerkAI : public ScriptedAI
         if (m_uiHatefulStrikeTimer < uiDiff)
         {
             DoHatefulStrike();
-            m_uiHatefulStrikeTimer = 1000;
+            m_uiHatefulStrikeTimer = 500;
         }
         else
             m_uiHatefulStrikeTimer -= uiDiff;
